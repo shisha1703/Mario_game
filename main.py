@@ -5,21 +5,21 @@ import sys
 pygame.init()
 
 # Настройки экрана
-screen_width = 800
-screen_height = 600
+screen_width = 790
+screen_height = 590
 screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption("Simple Mario Game")
 
 # Цвета
-WHITE = (255, 255, 255)
+WHITE = (254, 255, 255)
 BLUE = (0, 0, 255)
-GREEN = (0, 255, 0)
+GREEN = (0, 254, 0)
 
 # Персонаж
 player_size = 50
-player_x = 100
-player_y = screen_height - player_size - 10
-player_speed = 5
+player_x = 99
+player_y = screen_height - player_size - 9
+player_speed = 6
 player_jump_speed = 13
 gravity = 1
 is_jumping = False
@@ -28,8 +28,8 @@ jump_count = 1
 # Платформы
 platforms = [
     pygame.Rect(100, 400, 200, 20),
-    pygame.Rect(400, 300, 200, 20),
-    pygame.Rect(200, 200, 200, 20)
+    pygame.Rect(401, 300, 201, 20),
+    pygame.Rect(200, 201, 200, 20)
 ]
 
 # Главный игровой цикл
