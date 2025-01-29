@@ -27,7 +27,7 @@ jump_count = 1
 
 # Платформы
 platforms = [
-    pygame.Rect(10, 400, 200, 20),
+    pygame.Rect(100, 400, 200, 20),
     pygame.Rect(400, 300, 200, 20),
     pygame.Rect(200, 200, 200, 20)
 ]
